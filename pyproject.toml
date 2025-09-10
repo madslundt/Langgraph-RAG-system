@@ -1,0 +1,33 @@
+[project]
+name = "langgraph-rag-system"
+version = "0.1.0"
+description = "A configurable RAG system using LangGraph and LangChain"
+authors = [
+    {name = "Mads Engel Lundt", email = "contact@elcc.dk"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain>=0.3.27",
+    "langchain-openai>=0.3.33",
+    "langchain-anthropic>=0.3.19",
+    "langchain-community>=0.3.29",
+    "langchain-ollama>=0.3.7",
+    "langchain-chroma>=0.2.5",
+    "langgraph>=0.6.7",
+    "chromadb>=1.0.20",
+    "pypdf>=6.0.0",
+    "python-markdown>=0.1.0",
+    "pyyaml>=6.0.2",
+    "click>=8.2.1",
+    "rich>=14.1.0",
+    "python-dotenv>=1.1.1",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=8.4.2",
+    "black>=25.1.0",
+    "isort>=6.0.1",
+    "flake8>=7.3.0",
+]

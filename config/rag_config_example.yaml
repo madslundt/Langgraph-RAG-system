@@ -1,0 +1,11 @@
+rag_domains:
+  - name: "rag"
+    display_name: "Rag"
+    directory_path: "docs/rag"
+    file_extensions:
+      - ".md"
+    description: >
+      This tool provides structured explanations of three core technologies widely used
+      in the LLM ecosystem: LangChain, LangGraph, and Retrieval-Augmented Generation (RAG).
+    chunk_size: 400
+    chunk_overlap: 50
